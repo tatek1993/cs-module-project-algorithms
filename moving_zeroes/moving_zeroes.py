@@ -25,6 +25,28 @@ def moving_zeroes(arr):
     pass
 
 
+# def moving_zeros(arr):
+#if left is zero and right is non-zero
+# don't swap
+# if left is non-zero increment left,
+# if right is zero decrement right
+
+#initialize a left and right pointer
+# left is 0
+# right is last index in array
+
+# use a while loop
+# while left <= right
+# if left points at a zero and right points at a non-zero
+# swap left and right items in original arr
+# increment left
+# decrement right
+# else
+# if left is non-zero
+# increment left
+# if right is zero:
+# decrement right
+
 if __name__ == '__main__':
     # Use the main function here to test out your implementation
     arr = [0, 3, 1, 0, -2]

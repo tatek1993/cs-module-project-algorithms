@@ -19,6 +19,29 @@ def single_number(arr):
         elif arr[i] != arr[i + 1]:
             return arr[i]
 
+    # no_dups = []
+    # # iterate thru nums
+    # for num in arr:
+    #     # check to see if the number is already in the no_dups array
+    #     if num not in no_dups:
+    #         no_dups.append(num) # O(n)
+    #     # if it is, remove it from the no_dups array
+    #     else:
+    #         no_dups.remove(num) # O(n)
+    # return no_dups[0]
+
+    #  counts = {}
+    # # iterate thru nums
+    # for num in arr:
+    #     if num not in counts:
+    #         counts[num] = 1
+    #     else:
+    #         counts[num] += 1
+
+    # for k, v in counts.items(): # O(n)
+    #     if v == 1:
+    #         return k
+
 
 if __name__ == '__main__':
     # Use the main function to test your implementation
