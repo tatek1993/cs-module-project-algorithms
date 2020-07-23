@@ -2,8 +2,25 @@
 Input: a List of integers
 Returns: a List of integers
 '''
+
+
 def moving_zeroes(arr):
     # Your code here
+    # We sort the list, then iterate through it
+    # for num in arr if num == 0, add to zeros, else add to numbers array
+    # append zeros array to numbers array
+    arr.sort()
+    zeros = []
+    numbers = []
+
+    for num in arr:
+        if num == 0:
+            zeros.append(num)
+        elif num != 0:
+            numbers.append(num)
+
+    numbers = numbers + zeros
+    return numbers
 
     pass
 
